@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.servicos.ServicosFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Sistema de gestão de qualidade"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquam, leo vitae elementum malesuada, nisi lectus fermentum ligula, ac placerat nibh nisi ut justo. Curabitur nec luctus justo. Morbi et mi nisl. Ut sit amet nisi hendrerit urna fermentum placerat ac at urna. Vestibulum cursus massa ac mauris ultrices finibus. In vehicula dictum neque, et hendrerit neque finibus eget. Nullam placerat scelerisque metus eget bibendum. Ut at est non sapien posuere maximus. Duis pretium ex purus, eu efficitur nisl ultrices non. Ut et vestibulum eros. Fusce in ullamcorper nibh. Vestibulum eget ante vitae felis dapibus cursus eget vel nisi."
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="Indicadores de Desempenho"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Phasellus egestas nibh eu ligula scelerisque mattis non ut nisi. Vivamus pellentesque gravida sapien vitae dapibus. Praesent blandit lorem eu odio condimentum consectetur. In volutpat sollicitudin laoreet. Nulla pellentesque ut dolor eget mollis. Nullam tincidunt gravida lectus porttitor lacinia. Sed quis consectetur eros, at aliquam nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed a nulla non turpis rhoncus tempor eleifend a urna. Pellentesque egestas justo et quam maximus tristique. Ut tincidunt vehicula pulvinar. Nulla volutpat a nisl eget semper."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>
